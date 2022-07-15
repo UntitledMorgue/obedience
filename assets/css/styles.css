@@ -1,4 +1,6 @@
-element.style:hover {
+body {
+  z-index:none!important;
+  y-index:none!important;
 }
 
 element.style:hover {
