@@ -21,15 +21,16 @@ element.style:hover {
 }
 
 #trademark::before {
-  content:'obedient';
+  content:'obedience';
   color:gray;
   opacity:0.6;
   font-size:x-large;
+  transition: all 1s ease-in-out;
 }
 
 #trademark:hover::before {
   content:'i ❤ connor';
   color:white;
   font-size:xx-large;
-  transition: all 0.5s ease-in-out;
+  opacity:1;
 }
