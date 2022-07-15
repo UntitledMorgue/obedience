@@ -19,3 +19,17 @@ element.style:hover {
 #tag {
   color: #7b5cb5!important;
 }
+
+#trademark::before {
+  content:'obedient';
+  color:gray;
+  opacity:0.6;
+  font-size:x-large;
+}
+
+#trademark:hover::before {
+  content:'i ❤ connor';
+  color:white;
+  font-size:xx-large;
+  transition: all 0.5s ease-in-out;
+}
