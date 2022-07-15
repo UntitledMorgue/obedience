@@ -16,3 +16,6 @@ element.style:hover {
   transition: all ease 0.2s;
 }
 
+#tag {
+  color: #7b5cb5!important;
+}
